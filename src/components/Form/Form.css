@@ -1,0 +1,37 @@
+.filaFormulario {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    line-height: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    padding: 1rem;
+    border-radius: 0.4rem;
+    background-color: white;
+    color: black;
+  }
+  
+  .btnLogin {
+    width: 100%;
+    background-color: #0ccd83;
+    padding: 1rem;
+    font-weight: 700;
+  }
+  
+  .contenidoAdicionalLogin {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: silver;
+    margin: 1rem;
+  }
+  
+  .contenidoAdicionalLogin a  {
+    color: gray;
+  }
+  
+  .contenidoAdicionalLogin a:hover  {
+    color: gray;
+  }
